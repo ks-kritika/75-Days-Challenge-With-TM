@@ -3,5 +3,5 @@ class Solution:
         x=[]
         for i in nums:
             x.append(i*i)
-        x.sort()
+        x=sorted(x)
         return(x)
