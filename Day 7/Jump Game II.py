@@ -8,7 +8,7 @@ class Solution:
             return 0
         
         for i in range( 0, size):
-            cur_coverage = max( cur_coverage, i + nums[i] ) 
+            cur_coverage = max(i + nums[i], cur_coverage) 
             if i == last_jump_index:
                 last_jump_index = cur_coverage
                 times_of_jump += 1
