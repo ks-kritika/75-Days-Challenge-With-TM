@@ -1,3 +1,4 @@
+#O(n) Approach
 class Solution(object):
     def largestRectangleArea(self, height):
             ans = 0
@@ -30,6 +31,5 @@ class Solution:
                     break
 
             res = max(res,l*h[i])
-
         return res
 '''
