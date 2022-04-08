@@ -28,4 +28,5 @@ class TimeMap:
                         r = mid - 1
 
                 return li[r][0]
+                
         return ""
